@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Root Maurauders</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <meta name="theme-color" content="#364337"/>
+        <link rel="shortcut icon" href="icon.png">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="msapplication-TileImage" href="icon.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <div id="factionSetup" style="display:none;">
+            <div class="faction card base">
+                <h2 class="high-reach">Marquise de Cat</h2>
+                <h3>Setup</h3>
+                <ol class="setup">
+                    <li>Choose 3 homeland clearings, each adjacent to one other. </li>
+                    <li>Put 2 warriors in each of your homelands. Put 1 warrior in each other clearing.</li>
+                    <li>Put the keep in one of your homelands, not adjacent to an enemy homeland if able. Put 1 sawmill, workshop, and recruiter on the map, each in a different homeland of yours.</li>
+                    <li>Fill your Buildings track with your buildings, except the leftmost spaces.</li>
+                </ol>
+                <p class="reach">10</p>
+            </div>
+            <div class="faction card base">
+                <h2 class="high-reach">Eyrie Dynasties</h2>
+                <h3>Setup</h3>
+                <ol class="setup">
+                    <li>Choose a homeland clearing— the edge clearing whose nearest enemy homeland is furthest.</li>
+                    <li>Put 6 warriors and 1 roost in your homeland.</li>
+                    <li>Put a leader on your Leader Card slot. Keep the rest nearby.</li>
+                    <li>Tuck your Loyal Viziers under the Decree columns as listed on your leader.</li>
+                    <li>Fill your Roosts spaces with roosts, except the leftmost.</li>
+                </ol>
+                <p class="reach">7</p>
+            </div>
+        </div>
+        <div id="dice">
+            <div id="influenceDice">
+                <div class="die">
+                    <div class="1 face" style="display: flex;"><img src="inc/influence-1.jpg" alt="influence die"/></div>
+                    <div class="2 face" style="display: none;"><img src="inc/influence-1.jpg" alt="influence die"/></div>
+                    <div class="3 face" style="display: none;"><img src="inc/influence-3.jpg" alt="influence die"/></div>
+                    <div class="4 face" style="display: none;"><img src="inc/influence-4.jpg" alt="influence die"/></div>
+                    <div class="5 face" style="display: none;"><img src="inc/influence-5.jpg" alt="influence die"/></div>
+                    <div class="6 face" style="display: none;"><img src="inc/influence-6.jpg" alt="influence die"/></div>
+                </div>
+                <div class="die">
+                    <div class="1 face" style="display: flex;"><img src="inc/influence-1.jpg" alt="influence die"/></div>
+                    <div class="2 face" style="display: none;"><img src="inc/influence-1.jpg" alt="influence die"/></div>
+                    <div class="3 face" style="display: none;"><img src="inc/influence-3.jpg" alt="influence die"/></div>
+                    <div class="4 face" style="display: none;"><img src="inc/influence-4.jpg" alt="influence die"/></div>
+                    <div class="5 face" style="display: none;"><img src="inc/influence-5.jpg" alt="influence die"/></div>
+                    <div class="6 face" style="display: none;"><img src="inc/influence-6.jpg" alt="influence die"/></div>
+                </div>
+                <button>Rol de dobbelstenen</button>
+            </div>
+            <div id="uprisingDie">
+                <div class="die">
+                    <div class="1 face" style="display: flex;"><img src="inc/uprising-1.jpg" alt="uprising die"/></div>
+                    <div class="2 face" style="display: none;"><img src="inc/uprising-1.jpg" alt="uprising die"/></div>
+                    <div class="3 face" style="display: none;"><img src="inc/uprising-3.jpg" alt="uprising die"/></div>
+                    <div class="4 face" style="display: none;"><img src="inc/uprising-3.jpg" alt="uprising die"/></div>
+                    <div class="5 face" style="display: none;"><img src="inc/uprising-5.jpg" alt="uprising die"/></div>
+                    <div class="6 face" style="display: none;"><img src="inc/uprising-5.jpg" alt="uprising die"/></div>
+                </div>
+                <button>Rol de dobbelsteen</button>
+            </div>
+        </div>
+        <script src="dice.js"></script>
+        <script src="setup.js"></script>
+    </body>
+</html>
